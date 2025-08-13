@@ -42,30 +42,24 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Place your IoT dataset in the `data/` directory (or use the provided sample data).
+1. Place your IoT dataset in the `/root` directory (or use the provided sample data).
 
-2. Preprocess the data:
+2. Train the AI model:
 
 ```bash
-python scripts/preprocess_data.py
+python train_model.py
 ```
 
-3. Train the AI model:
+3. Run the simulation & decision engine:
 
 ```bash
-python scripts/train_model.py
+python predict.py
 ```
 
-4. Run the simulation & decision engine:
+4. Visualize results:
 
 ```bash
-python scripts/simulate.py
-```
-
-5. Visualize results:
-
-```bash
-python scripts/visualize.py
+python dashboard.py
 ```
 
 ## Project Structure
