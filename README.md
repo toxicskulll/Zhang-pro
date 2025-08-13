@@ -59,7 +59,7 @@ python predict.py
 4. Visualize results:
 
 ```bash
-python dashboard.py
+streamlit run dashboard.py
 ```
 
 ## Project Structure
