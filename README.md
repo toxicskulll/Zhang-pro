@@ -119,22 +119,6 @@ streamlit run dashboard.py
 }
 ```
 
-## Input Parameters
-
-```json
-{
-   voltage_V
-   current_A
-   power_W (optional, computed)
-   energy_usage_J (optional, computed)
-   temperature_C
-   humidity_%
-   field_strength_V_m
-   storage_level_%
-   sensor_active
-}
-```
-
 ### CSV Format
 The dashboard expects columns in this order:
 ```
@@ -359,4 +343,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Built with ❤️ for sustainable energy harvesting**
+
 
